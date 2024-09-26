@@ -1,10 +1,9 @@
-import AppBar from "@/components/Login/AppBar";
-import HeroSection from "@/components/Login/HeroSection";
+import LoginPage from "@/components/Login/LoginPage";
+
 export default function Login() {
   return (
     <div>
-      <AppBar/>
-      <HeroSection/>
+      <LoginPage/>
     </div>
   );
 }
